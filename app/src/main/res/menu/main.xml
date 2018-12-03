@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_nuevo_prestamo"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/action_nuevo_prestamo"/>
+    
+</menu>

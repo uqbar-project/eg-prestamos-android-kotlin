@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Préstamos de libros</string>
+    <string name="action_books">Libros</string>
+    <string name="action_nuevo_prestamo">Nuevo préstamo</string>
+    <string name="action_prestar">Prestar</string>
+    <string name="action_ok">Guardar</string>
+    <string name="action_call_contact">Contactar</string>
+    <string name="action_email_contact">Enviar mail</string>
+    <string name="books">Libros</string>
+    <string name="title_ver_libros">Libros</string>
+    <string name="title_activity_book">BookActivity</string>
+    <string name="title_libro_list">Libros</string>
+    <string name="title_libro_detail">Detalle del Libro</string>
+    <string name="title_libro_title">Título</string>
+    <string name="title_libro_author">Autor</string>
+    <string name="nuevoLibro">Nuevo</string>
+    <string name="title_activity_nuevo_prestamo">Nuevo Préstamo</string>
+    <string name="title_txtContacto">Contacto</string>
+    <string name="libro_titulo_hint">Libro a prestar</string>
+    <string name="action_return">Devolver</string>
+</resources>
