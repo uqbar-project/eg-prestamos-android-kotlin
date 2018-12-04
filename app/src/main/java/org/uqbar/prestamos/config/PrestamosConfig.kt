@@ -12,16 +12,16 @@ object PrestamosConfig {
 
     fun repoLibros(activity: Activity): RepoLibros {
         // PERSISTENTE
-        //return new SQLLiteRepoLibros(activity);
+        return SQLLiteRepoLibros(activity)
         // NO PERSISTENTE
-        return CollectionBasedLibros
+        // return CollectionBasedLibros
     }
 
     fun repoPrestamos(activity: Activity): RepoPrestamos {
         // PERSISTENTE
-        //return new SQLLiteRepoPrestamos(activity);
+        return SQLLiteRepoPrestamos(activity)
         // NO PERSISTENTE
-        return CollectionBasedPrestamos
+        //return CollectionBasedPrestamos
     }
 
     fun repoContactos(activity: Activity): RepoContactos {
