@@ -117,7 +117,7 @@ class MainActivity: Activity() , ActionMode.Callback {
             return false
         }
         val posicion = Integer.parseInt(mActionMode?.tag.toString())
-        val prestamo = prestamosPendientes[posicion]!!
+        val prestamo = prestamosPendientes[posicion]
         when (item.itemId) {
             R.id.action_call_contact -> llamar(prestamo.telefono())
             R.id.action_email_contact -> enviarMail(prestamo)

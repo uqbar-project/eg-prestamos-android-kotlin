@@ -41,3 +41,4 @@ Nuestro dominio es bastante sencillo:
 ## Explicaciones adicionales
 
 * [Actividad principal: lista de préstamos](documentation/listaPrestamos.md)
+* [Contactar un deudor](documentation/contactarDeudor.md)

@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_call_contact"
-        android:icon="@drawable/ic_action_call"
-        android:orderInCategory="100"
-        android:showAsAction="always"
-        android:title="@string/action_call_contact"/>
+            android:id="@+id/action_call_contact"
+            android:icon="@drawable/ic_action_call"
+            android:orderInCategory="100"
+            android:title="@string/action_call_contact" app:showAsAction="always"/>
     
     <item
-        android:id="@+id/action_email_contact"
-        android:icon="@drawable/ic_action_email"
-        android:orderInCategory="200"
-        android:showAsAction="always"
-        android:title="@string/action_email_contact"/>
+            android:id="@+id/action_email_contact"
+            android:icon="@drawable/ic_action_email"
+            android:orderInCategory="200"
+            android:title="@string/action_email_contact" app:showAsAction="always"/>
 
     <item
-        android:id="@+id/action_return"
-        android:icon="@drawable/ic_undo"
-        android:orderInCategory="200"
-        android:showAsAction="always"
-        android:title="@string/action_return"/>
+            android:id="@+id/action_return"
+            android:icon="@drawable/ic_undo"
+            android:orderInCategory="200"
+            android:title="@string/action_return" app:showAsAction="always"/>
 
 </menu>
