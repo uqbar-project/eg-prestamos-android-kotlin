@@ -114,7 +114,7 @@ Creamos un nuevo xml (parados sobre res/layout hacemos new Android XML File) que
 
 Para eso definimos un primer layout que será horizontal, donde ubicaremos la foto del contacto. Luego otro layout vertical permitirá que pongamos la descripción del libro y los datos del préstamo con un tamaño más chico (textAppearanceSmall).
 
-![image](./images/layoutPrestamo.png)
+![image](../images/layoutPrestamo.png)
 
 ### Controller de la fila de un préstamo
 
@@ -155,4 +155,4 @@ class PrestamoAdapter(_mainActivity: Activity, _prestamosPendientes: MutableList
 
 Mientras que en otros ejemplos utilizamos un Recycler View, aquí desacoplamos el objeto que adapta la vista de una fila de la actividad principal (`MainActivity.kt`). [Pueden estudiar una comparación de ambas formas de visualizar colecciones en Android aquí.](https://stackoverflow.com/questions/26728651/recyclerview-vs-listview).
 
-![image](./images/prestamosListViewClassDiagram.png)
+![image](../images/prestamosListViewClassDiagram.png)
