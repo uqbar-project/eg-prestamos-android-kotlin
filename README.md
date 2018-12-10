@@ -42,5 +42,6 @@ Nuestro dominio es bastante sencillo:
 
 * [Actividad principal: lista de préstamos](documentation/listaPrestamos.md)
 * [Contactar un deudor](documentation/contactarDeudor.md)
+* [Nuevo préstamo](documentation/nuevoPrestamo.md)
 * [Interacción con API de Contactos de Android](documentation/apiContactos.md)
 * [Persistencia a un medio local con SQLite](documentation/persistenciaLocal.md)
