@@ -143,3 +143,4 @@ override fun onResume() {
 Vemos cómo queda el resultado final.
 
 ![image](../images/nuevoPrestamoApp.png)
+![image](../images/nuevoPrestamoApp2.png)
